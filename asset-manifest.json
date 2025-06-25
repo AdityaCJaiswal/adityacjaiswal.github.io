@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72971232.css",
+    "main.js": "/static/js/main.9b4c9268.js",
+    "static/js/453.3cb88234.chunk.js": "/static/js/453.3cb88234.chunk.js",
+    "static/media/Rentify.png": "/static/media/Rentify.50af3062bd48f585881f.png",
+    "static/media/Fresh Fruit Hub .png": "/static/media/Fresh Fruit Hub .346741b0568926cf1932.png",
+    "static/media/Rental hub .jpg": "/static/media/Rental hub .158d9cbe3a20b9a23c72.jpg",
+    "static/media/Stars.svg": "/static/media/Stars.d1095ee05de26bf14431.svg",
+    "static/media/Graph.png": "/static/media/Graph.679f76ceb803553f31c9.png",
+    "static/media/Trees.svg": "/static/media/Trees.588e4000d640489f44db.svg",
+    "static/media/Silhouette.svg": "/static/media/Silhouette.0ca4ee6da3b38e1330df.svg",
+    "static/media/Moon.svg": "/static/media/Moon.af67517e74aa31c8ed4d.svg",
+    "index.html": "/index.html",
+    "static/media/envelope.svg": "/static/media/envelope.598becf0d2af0ab68880.svg",
+    "main.72971232.css.map": "/static/css/main.72971232.css.map",
+    "main.9b4c9268.js.map": "/static/js/main.9b4c9268.js.map",
+    "453.3cb88234.chunk.js.map": "/static/js/453.3cb88234.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72971232.css",
+    "static/js/main.9b4c9268.js"
+  ]
+}
