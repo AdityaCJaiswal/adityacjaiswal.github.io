@@ -46,20 +46,15 @@ const About = (props) => {
             </p>
           </div>
           <div className="desc">
-            <h4 className="subtitle">Also a App Developer.</h4>
-            <p>
-              I feel comfortable working with many Adobe products. Photoshop,
-              Illustrator, InDesign, Lightroom or Xd are some kind of industry
-              standards and I love working with them. I'm not limited to them,
-              though: Gimp, Inkscape or Figma are also very valid applications
-              that I've been working with.
-            </p>
-            <p>
-              User interfaces, brochures, books, branding... You name it! As I
-              mentioned, creating pretty things is particularly important for
-              me.
-            </p>
-          </div>
+  <h4 className="subtitle">Building for Impact.</h4>
+  <p>
+    I approach development with a problem-solving mindset — aiming to build systems that are practical, scalable, and meaningful. It’s not just about writing code; it’s about creating solutions that improve real-world experiences.
+  </p>
+  <p>
+    I enjoy crafting fullstack architectures that combine intuitive UIs, efficient APIs, and robust data handling. My focus is always on clarity, performance, and long-term maintainability — because good software should evolve, not break.
+  </p>
+</div>
+
         </article>
 
         <div>

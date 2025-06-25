@@ -1,9 +1,9 @@
 import React from 'react';
 import Project from './Project';
 import './Projects.css';
-import Rentalhub from './Images/Rental hub .jpg';
-import FreshFruitHub  from './Images/Fresh Fruit Hub .png';
-import Rentify  from './Images/Rentify.png';
+import AdaptiveLearn from './Images/AdaptiveLearn.png';
+import DocIntel  from './Images/DocIntel.png';
+import Time  from './Images/Time.png';
 
 const Projects = props => {
   return (
@@ -21,48 +21,53 @@ const Projects = props => {
 
           
           <Project
-            title="FreshFruitHub"
-            img={FreshFruitHub}
-            tech="js css react node"
-            link="https://fresh-fruit-hub.onrender.com/"
-            repo="https://github.com/MIHIR2006/Fruit-hub"
+            title="AdaptiveLearn - Personalized Learning Platform"
+            img={AdaptiveLearn}
+            tech="React, Node.js, Supabase, AI/ML"
+            link="https://adaptivelearn.vercel.app/"
+            repo="https://github.com/AdityaCJaiswal/Personalized-Video-Learning-Path"
           >
             <small>
-              Built using React.js and React Router.
+              Built using React, Node.js, Supabase, AI/ML
             </small>
             <p>
-            "Fresh Fruit Hub, a dynamic React-based single-page application, invites you to savor the essence of nature's bounty.As the developer, I've fused aesthetics with functionality to create a modern and engaging virtual orchard. 
+            "Built AI-driven learning platform featuring personalized content delivery, real-time behavioral analytics, and adaptive
+learning paths. Integrated YouTube API for video analysis, custom recommendation algorithms, and interactive
+progress visualization with predictive modeling 
             </p>
           </Project>
 
           <Project
-            title="Car selling Website"
-            img={Rentalhub}
-            tech="js css react node"
+            title="DocIntel - AI Document Intelligence Platform"
+            img={DocIntel}
+            tech="Django REST  React  MySQL, FAISS, RAG"
             link="https://fresh-fruit-hub.onrender.com/"
-            repo="https://github.com/MIHIR2006/mihir-portfolio"
+            repo="https://github.com/AdityaCJaiswal/DocIntel-Document-Intelligence-Platform"
           >
             <small>
-              Built using Node React.js and React Router.
+              Built using Django REST, React, MySQL, FAISS, RAG
             </small>
             <p>
-            DriveDreams is more than just a website; it's a digital gateway to automotive enthusiasts' dreams. This project was born out of my love for both technology and cars, and I channeled that passion into every aspect of its creation.
+            Developed an AI-powered document analysis platform enabling users to upload and interactively query PDF/DOCX
+files using Retrieval-Augmented Generation. Implemented vector embeddings with SentenceTransformers and local
+LLM integration via LM Studio for cost-free operation.
             </p>
           </Project>
 
           
           <Project
-            title="Car Renting Website"
-            img={Rentify}
-            tech="js css react"
-            link="https://rentify-navy.vercel.app"
-            repo="https://github.com/MIHIR2006/Rentify"
+            title="Time Capsule using Blockchain"
+            img={Time}
+            tech=""
+            link="https://time-capsule-blockchain.vercel.app/"
+            repo="https://github.com/AdityaCJaiswal/Time-capsule-Blockchain"
           >
             <small>
-              Built CSS + Bootstarp, React.js and React Router.
+              Built with Solidity, Ethereum, MERN Stack.
             </small>
             <p>
-            Rentify, a sleek and efficient car renting website designed and developed as a single-page application using React. With Rentify, we've redefined the car rental experience, offering a seamless and user-friendly interface that ensures a hassle-free process from start to finish.
+            Built a DApp to store time-locked messages on the Ethereum blockchain using smart contracts. Ensured secure,
+delayed access via timestamp-based retrieval logic.
             </p>
           </Project>
           
