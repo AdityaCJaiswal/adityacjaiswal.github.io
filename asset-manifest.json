@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/adityacjaiswal.github.io/static/css/main.9c14032d.css",
-    "main.js": "/adityacjaiswal.github.io/static/js/main.a43b7840.js",
-    "static/js/453.3cb88234.chunk.js": "/adityacjaiswal.github.io/static/js/453.3cb88234.chunk.js",
-    "static/media/DocIntel.png": "/adityacjaiswal.github.io/static/media/DocIntel.941de1f9e7414738d558.png",
-    "static/media/AdaptiveLearn.png": "/adityacjaiswal.github.io/static/media/AdaptiveLearn.a9dd2fcf2435934b1630.png",
-    "static/media/Time.png": "/adityacjaiswal.github.io/static/media/Time.d07cd55ee2142242d16f.png",
-    "static/media/Stars.svg": "/adityacjaiswal.github.io/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
-    "static/media/Graph.png": "/adityacjaiswal.github.io/static/media/Graph.679f76ceb803553f31c9.png",
-    "static/media/Trees.svg": "/adityacjaiswal.github.io/static/media/Trees.6947010d7683924c2b24.svg",
-    "static/media/Silhouette.svg": "/adityacjaiswal.github.io/static/media/Silhouette.94098b6d48b79ae2a99d.svg",
-    "static/media/Moon.svg": "/adityacjaiswal.github.io/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
-    "index.html": "/adityacjaiswal.github.io/index.html",
-    "static/media/envelope.svg": "/adityacjaiswal.github.io/static/media/envelope.2da9f9f0571e695cc384.svg",
-    "main.9c14032d.css.map": "/adityacjaiswal.github.io/static/css/main.9c14032d.css.map",
-    "main.a43b7840.js.map": "/adityacjaiswal.github.io/static/js/main.a43b7840.js.map",
-    "453.3cb88234.chunk.js.map": "/adityacjaiswal.github.io/static/js/453.3cb88234.chunk.js.map"
+    "main.css": "/static/css/main.c7b1695a.css",
+    "main.js": "/static/js/main.1e4ef3de.js",
+    "static/js/453.3cb88234.chunk.js": "/static/js/453.3cb88234.chunk.js",
+    "static/media/DocIntel.png": "/static/media/DocIntel.941de1f9e7414738d558.png",
+    "static/media/AdaptiveLearn.png": "/static/media/AdaptiveLearn.a9dd2fcf2435934b1630.png",
+    "static/media/Time.png": "/static/media/Time.d07cd55ee2142242d16f.png",
+    "static/media/Stars.svg": "/static/media/Stars.8a0c1e35dbdee9d1871f.svg",
+    "static/media/Graph.png": "/static/media/Graph.679f76ceb803553f31c9.png",
+    "static/media/Trees.svg": "/static/media/Trees.6947010d7683924c2b24.svg",
+    "static/media/Silhouette.svg": "/static/media/Silhouette.94098b6d48b79ae2a99d.svg",
+    "static/media/Moon.svg": "/static/media/Moon.b4f3fe5b459b519cfdb9.svg",
+    "index.html": "/index.html",
+    "static/media/envelope.svg": "/static/media/envelope.2da9f9f0571e695cc384.svg",
+    "main.c7b1695a.css.map": "/static/css/main.c7b1695a.css.map",
+    "main.1e4ef3de.js.map": "/static/js/main.1e4ef3de.js.map",
+    "453.3cb88234.chunk.js.map": "/static/js/453.3cb88234.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c14032d.css",
-    "static/js/main.a43b7840.js"
+    "static/css/main.c7b1695a.css",
+    "static/js/main.1e4ef3de.js"
   ]
 }
