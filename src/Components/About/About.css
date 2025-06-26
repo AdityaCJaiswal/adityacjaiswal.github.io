@@ -1,16 +1,13 @@
 #about {
   height: 100%;
   min-height: 100vh;
-
   font-size: 1.4rem;
   position: relative;
   background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  /* background: #fafafa url(../../Images/bg-main.jpg) center right no-repeat; */
   background-color: #c3cbdc;
   background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
-
   background-size: cover;
 }
 
@@ -38,38 +35,45 @@
 
 #about .title h3 {
   font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
 }
 
 #about .separator {
-  background: #f300b4;
+  background: linear-gradient(45deg, #f300b4, #ff6b9d);
   width: 150px;
-  height: 2px;
+  height: 3px;
   margin: 1rem 0;
   padding: 0;
+  border-radius: 2px;
 }
+
 #about .separatorSkills {
-  background: #f300b4;
+  background: linear-gradient(45deg, #f300b4, #ff6b9d);
   width: 50px;
-  height: 2px;
+  height: 3px;
   margin-top: 2px;
-  /* margin: 1rem 0; */
   padding: 0;
+  border-radius: 2px;
 }
+
 #about .separatorGithub {
-  background: #f300b4;
+  background: linear-gradient(45deg, #f300b4, #ff6b9d);
   width: 200px;
-  height: 2px;
+  height: 3px;
   margin: 1rem 0;
   padding: 0;
   margin-top: 7px;
   margin-left: 10px;
+  border-radius: 2px;
 }
 
 #about .subtitle {
   font-size: 1.6rem;
   text-align: center;
-  color: inherit;
+  color: #333;
   padding-bottom: 1.5rem;
+  font-weight: 600;
 }
 
 #about p {
@@ -85,18 +89,69 @@
 
 #about .desc {
   grid-column-end: span 2;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   padding: 2rem;
   text-align: justify;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(23, 92, 230, 0.15);
+  transition: all 0.3s ease;
 }
+
+#about .desc:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(23, 92, 230, 0.2);
+}
+
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(45deg, #f300b4, #ff6b9d);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.download-resume-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.download-resume-btn:hover::before {
+  left: 100%;
+}
+
+.download-resume-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(243, 0, 180, 0.3);
+}
+
 .GraphImg {
   height: 262px;
-  width: 1015px;
-  border-radius: 10px;
+  width: 100%;
+  max-width: 1015px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
 }
+
 .graph-container {
   width: 100%;
   height: auto;
@@ -105,12 +160,19 @@
   align-items: center;
   margin-top: 10px;
   grid-column-end: span 2;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   padding: 2rem;
   text-align: justify;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(23, 92, 230, 0.15);
+  transition: all 0.3s ease;
+}
+
+.graph-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(23, 92, 230, 0.2);
 }
 
 .graph-container img {
@@ -121,12 +183,19 @@
 #about .descTechS {
   grid-column-end: span 2;
   width: 100%;
-  background: #ffffffaa;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
   padding: 2rem;
   text-align: justify;
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(23, 92, 230, 0.15);
+  transition: all 0.3s ease;
+}
+
+#about .descTechS:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(23, 92, 230, 0.2);
 }
 
 .SkillsMargin {
@@ -134,16 +203,24 @@
 }
 
 #about .TechContainer {
-  display: flex; /* Enables Flexbox */
-  justify-content: space-evenly; /* Distributes items horizontally with equal spacing */
-  align-items: center; /* Ensures items are vertically aligned (if needed) */
-  /* padding: 0px; */
-  box-sizing: border-box; /* Includes padding in the total width */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .Techs {
-  width: 50px; /* Set a fixed size for icons (adjust as needed) */
-  height: auto; /* Maintains the aspect ratio */
+  width: 50px;
+  height: auto;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+}
+
+.Techs:hover {
+  transform: scale(1.1) rotate(5deg);
+  filter: drop-shadow(0 5px 15px rgba(243, 0, 180, 0.3));
 }
 
 @media only screen and (max-width: 1149px) {
@@ -159,7 +236,16 @@
     grid-column-end: -1;
     margin-top: 10px;
   }
+  
+  .graph-container {
+    grid-column-end: -1;
+  }
+  
+  #about .descTechS {
+    grid-column-end: -1;
+  }
 }
+
 @media only screen and (max-width: 949px) {
   #about {
     clip-path: polygon(0 0, 20% 2%, 100% 0, 100% 100%, 80% 98%, 0 100%);
@@ -167,8 +253,40 @@
     background-size: cover;
   }
 }
+
 @media only screen and (max-width: 649px) {
   #about .wrapper {
     padding: 10rem 2rem 8rem;
+  }
+  
+  .download-resume-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+  
+  .GraphImg {
+    height: 200px;
+  }
+  
+  .Techs {
+    width: 40px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #about .wrapper {
+    padding: 8rem 1rem 6rem;
+  }
+  
+  #about .title h3 {
+    font-size: 2rem;
+  }
+  
+  .TechContainer {
+    gap: 0.5rem;
+  }
+  
+  .Techs {
+    width: 35px;
   }
 }
