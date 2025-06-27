@@ -10,30 +10,30 @@ const Experience = () => {
   });
 
   const experiences = [
+    // {
+    //   id: 1,
+    //   title: "Full Stack Developer",
+    //   company: "Tech Innovators Inc.",
+    //   period: "2023 - Present",
+    //   description: "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.",
+    //   technologies: ["React", "Node.js", "AWS", "MongoDB", "TypeScript"],
+    //   type: "work"
+    // },
+    // {
+    //   id: 2,
+    //   title: "Frontend Developer Intern",
+    //   company: "StartupXYZ",
+    //   period: "2022 - 2023",
+    //   description: "Developed responsive user interfaces and improved application performance by 40%. Collaborated with design team to implement pixel-perfect designs.",
+    //   technologies: ["React", "JavaScript", "CSS3", "Git"],
+    //   type: "work"
+    // },
     {
       id: 1,
-      title: "Full Stack Developer",
-      company: "Tech Innovators Inc.",
-      period: "2023 - Present",
-      description: "Leading development of scalable web applications using React, Node.js, and cloud technologies. Mentoring junior developers and implementing best practices.",
-      technologies: ["React", "Node.js", "AWS", "MongoDB", "TypeScript"],
-      type: "work"
-    },
-    {
-      id: 2,
-      title: "Frontend Developer Intern",
-      company: "StartupXYZ",
-      period: "2022 - 2023",
-      description: "Developed responsive user interfaces and improved application performance by 40%. Collaborated with design team to implement pixel-perfect designs.",
-      technologies: ["React", "JavaScript", "CSS3", "Git"],
-      type: "work"
-    },
-    {
-      id: 3,
       title: "Bachelor of Technology",
-      company: "Kalinga Institute of Industrial Technology",
-      period: "2021 - 2025",
-      description: "Computer Science and Engineering with focus on web development, algorithms, and software engineering principles.",
+      company: "Shri Ramdeobaba College of Engineering and Management, Nagpur",
+      period: "2023 - present",
+      description: "Pursuing Information Technology with focus on fullstack development, core CS concepts, and real-world project building",
       technologies: ["Data Structures", "Algorithms", "DBMS", "OS"],
       type: "education"
     }

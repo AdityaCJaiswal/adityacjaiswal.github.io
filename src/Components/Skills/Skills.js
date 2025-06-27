@@ -15,7 +15,7 @@ const Skills = () => {
       skills: [
         { name: "React", level: 90, icon: "⚛️" },
         { name: "JavaScript", level: 85, icon: "🟨" },
-        { name: "TypeScript", level: 80, icon: "🔷" },
+        { name: "TypeScript", level: 75, icon: "🔷" },
         { name: "HTML/CSS", level: 95, icon: "🎨" },
         { name: "Next.js", level: 75, icon: "▲" },
         { name: "Tailwind CSS", level: 85, icon: "💨" }
@@ -27,19 +27,19 @@ const Skills = () => {
         { name: "Node.js", level: 85, icon: "🟢" },
         { name: "Express.js", level: 80, icon: "🚀" },
         { name: "MongoDB", level: 75, icon: "🍃" },
-        { name: "MySQL", level: 70, icon: "🐬" },
+        { name: "Spring Boot", level: 60, icon: "🌱" },
         { name: "Python", level: 75, icon: "🐍" },
         { name: "Django", level: 65, icon: "🎯" }
       ]
     },
     {
-      title: "Tools & Technologies",
+      title: "Other Tools & Technologies",
       skills: [
-        { name: "Git", level: 90, icon: "📝" },
-        { name: "Docker", level: 70, icon: "🐳" },
-        { name: "AWS", level: 65, icon: "☁️" },
-        { name: "Firebase", level: 80, icon: "🔥" },
-        { name: "Figma", level: 75, icon: "🎨" },
+        { name: "Git", level: 80, icon: "📝" },
+        { name: "Docker", level: 55, icon: "🐳" },
+        { name: "AWS", level: 60, icon: "☁️" },
+        { name: "Firebase", level: 60, icon: "🔥" },
+        { name: "DSA", level: 75, icon: "🧠" },
         { name: "Postman", level: 85, icon: "📮" }
       ]
     }

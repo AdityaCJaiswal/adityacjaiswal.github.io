@@ -32,7 +32,7 @@ const Projects = () => {
       description: "Developed an AI-powered document analysis platform enabling users to upload and interactively query PDF/DOCX files using Retrieval-Augmented Generation. Implemented vector embeddings with SentenceTransformers and local LLM integration via LM Studio for cost-free operation.",
       image: DocIntel,
       technologies: ["Django REST", "React", "MySQL", "FAISS", "RAG", "AI"],
-      liveLink: "https://fresh-fruit-hub.onrender.com/",
+      liveLink: "", // Empty live link
       githubLink: "https://github.com/AdityaCJaiswal/DocIntel-Document-Intelligence-Platform",
       category: "AI/ML",
       featured: true
@@ -110,17 +110,19 @@ const Projects = () => {
                 />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <motion.a
-                      href={project.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="project-link live"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                    >
-                      <ExternalLink size={20} />
-                      <span>Live Demo</span>
-                    </motion.a>
+                    {project.liveLink && (
+                      <motion.a
+                        href={project.liveLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="project-link live"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.95 }}
+                      >
+                        <ExternalLink size={20} />
+                        <span>Live Demo</span>
+                      </motion.a>
+                    )}
                     <motion.a
                       href={project.githubLink}
                       target="_blank"
@@ -153,15 +155,17 @@ const Projects = () => {
                 </div>
 
                 <div className="project-actions">
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    <ExternalLink size={16} />
-                    View Project
-                  </a>
+                  {project.liveLink && (
+                    <a
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      <ExternalLink size={16} />
+                      View Project
+                    </a>
+                  )}
                   <a
                     href={project.githubLink}
                     target="_blank"
