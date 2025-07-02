@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Download } from 'lucide-react';
 import GitGraph from "./Graph.png";
+import contri from "./contri.png";
 import "./About.css";
 import Skills from "./Skills.js";
 
@@ -223,6 +224,17 @@ const About = (props) => {
         >
           <a href="https://github.com/AdityaCJaiswal" target="_blank" rel="noopener noreferrer"> 
             <img className="GraphImg" src={GitGraph} alt="GitHub Contribution Graph" />
+          </a>
+        </motion.div>
+        <motion.div 
+          className="graph-container"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={inView ? { opacity: 1, scale: 1 } : {}}
+          transition={{ delay: 1.2, duration: 0.8 }}
+          whileHover={{ scale: 1.02 }}
+        >
+          <a href="https://github.com/AdityaCJaiswal" target="_blank" rel="noopener noreferrer"> 
+            <img className="GraphImg" src={contri} alt="GitHub Contribution Graph" />
           </a>
         </motion.div>
       </div>
