@@ -36,11 +36,14 @@ const Skills = () => {
       title: "Other Tools & Technologies",
       skills: [
         { name: "Git", level: 80, icon: "📝" },
-        { name: "Docker", level: 55, icon: "🐳" },
-        { name: "AWS", level: 60, icon: "☁️" },
-        { name: "Firebase", level: 60, icon: "🔥" },
-        { name: "DSA", level: 75, icon: "🧠" },
-        { name: "Postman", level: 85, icon: "📮" }
+       // { name: "Docker", level: 55, icon: "🐳" },
+      //  { name: "AWS", level: 60, icon: "☁️" },
+       // { name: "Firebase", level: 60, icon: "🔥" },
+       { name: "Postman", level: 80, icon: "📮" },
+       { name: "RAG", level: 75, icon: "📚" },       
+       { name: "Blockchain", level: 65, icon: "⛓️" },
+       { name: "DSA", level: 65, icon: "🧠" },
+
       ]
     }
   ];
