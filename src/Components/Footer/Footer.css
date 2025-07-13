@@ -33,6 +33,7 @@ footer .wrapper {
   margin-bottom: 3rem;
 }
 
+.footer-section h1,
 .footer-section h3,
 .footer-section h4 {
   margin-bottom: 1rem;
@@ -40,7 +41,7 @@ footer .wrapper {
 }
 
 .footer-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 700;
   background: linear-gradient(45deg, #f300b4, #ff6b9d);
   -webkit-background-clip: text;

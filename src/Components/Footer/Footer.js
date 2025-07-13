@@ -20,7 +20,7 @@ const Footer = props => {
           </div>
           
           <div className="footer-section">
-            <h4>Quick Links</h4>
+            <h1>Quick Links</h1>
             <div className="footer-links">
               <a href="#about">About</a>
               <a href="#experience">Experience</a>
@@ -31,7 +31,7 @@ const Footer = props => {
           </div>
           
           <div className="footer-section">
-            <h4>Connect</h4>
+            <h1>Connect</h1>
             <SocialLinks />
             <p className="footer-email">adityajaiswal.codes@gmail.com</p>
           </div>
